@@ -5,41 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="login.css">
-   
+    <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
 </head>
 <body>
 
 
-  <div class="login">
-    <div class="container">
-          <img src="user.svg" alt="task icon">
+    <div class="login-container">
+
+         <img src="./assets/images/frame-94..svg" alt="Frame 94">
 
           <h1>Welcome Back!</h1>
           <p>Enter your details to access your account</p>
 
           <form>
 
-    <div class="button">
-         <a href="login.html" class="btn">Login</a>
+      <div class="button">
+         <a href="login.html" class=" login">Login</a>
          <button>Sign Up</button><br><br><br>
     </div>
        
+    <div>
          <label for="Email">Email Address*</label><br>
          <input type="text" name="e-address" placeholder="hello@example.com"><br><br>
+         <span class="input-icon"></span>
+     </div>
 
+     <div>
          <label for="Password">Password*</label><br>
          <input type="text" name="password" placeholder="********"><br>
-
+         <span class="input"></span>
+     </div>
          <p>Password must be at least 6 characters long</p><br>
-  
+
+  <div class="btn-help">
     <button type="button">Help?</button> 
+    </div>
+
+    <div class="btn-create">
     <button type="button">Create account</button>
+    </div>
 
     <footer>
-         <p>By continuing, you agree to our <a href="http://www.jumia.com">Terms of Service</a> 
-         & <a href="http://www.jumia.com">Privacy Policy</a><br> 
-         © 2024 TaskMaster | Made for University Students</p>
+         <p>By continuing, you agree to our <a href="http://www.jumia.com">Terms of Service</a> & <a href="http://www.jumia.com">Privacy Policy</a><br> © 2024 TaskMaster | Made for University Students</p>
      </footer>
 
 
@@ -50,6 +58,7 @@
     </div>
 
     <script src="assets/js/login.js"></script>
+    <script src="assets/js/global.js"></script>
   
 
 </body>

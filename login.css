@@ -8,23 +8,33 @@ body {
 }
 
 
-.login {
-  background-color: white;
+.login-container {
+  background-color: rgb(255, 255, 255);
   margin: 20px;
   padding: 4rem;
   align-content: center;
   border-color: white;
   border-radius: 12px;
+  position: static;
+ 
 
 }
+
+.login-container img {
+  align-content: center;
+}
+
  h1 {
 font-size: 25px;
 font-weight: bold;
+text-align: center;
 }
 
-.container p {
-  font-weight: 300;
+.login-container p {
+ 
+  font-weight: 400;
   font-size: 15px;
+  text-align: center;
 }
 
 
@@ -40,7 +50,7 @@ input {
 }
 
 button {
-  background: #FFC107;
+  background:#F6BC00;
   border-radius: 8px;
   box-sizing: border-box;
   color: white;
@@ -51,6 +61,19 @@ button {
   font-size: 16px;
   cursor: default;
   outline: white;
+}
+
+
+.button, .active-buttons {
+   background-color:#F8F9FAFE;
+   width: 398;
+height: 36;
+opacity: 1;
+top: 2px;
+left: 4px;
+border-radius: 7px;
+
+
 }
 
 .footer {

@@ -1,18 +1,18 @@
-const loginTab = document.getElementById('loginTab');
+const login= document.getElementById('login');
 
-const signupTab = document.getElementById('signupTab');
+const signup = document.getElementById('signup');
 
-loginTab.addEventListener('click', () => {
+login.addEventListener('click', () => {
 
-  loginTab.classList.add('active');
+  login.classList.add('active');
 
-  signupTab.classList.remove('active');
+  signup.classList.remove('active');
 
 });
 
-signupTab.addEventListener('click', () => {
+signup.addEventListener('click', () => {
 
-  signupTab.classList.add('active');
+  signup.classList.add('active');
 
   loginTab.classList.remove('active');
 
